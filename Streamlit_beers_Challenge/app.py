@@ -10,7 +10,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("Getting Drunk Exercise, by Team 1")
 st.image('Types-of-Beer-Glasses-Mugs-from-Homebrew-Academy.jpg')
 
-df = pd.read_csv("C:\\Users\\Walid Lakouader\\Documents\\GitHub\\ai_jun21\\M1-Python\\04. Strings and Files\\ai_jun21\\M2-Maths and Stats\\D7\data\\beers.csv")
+df = pd.read_csv("beers.csv")
 
 corr = df.corr()
 plt.figure(figsize=(10, 10))
